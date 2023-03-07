@@ -1,0 +1,23 @@
+Everett Reynolds
+Artificial Life
+
+Algorithm Analysis
+
+The algorithm for the Artificial Algorithm Genetic Algorithm will go as follows
+The command line will be used to determine what kind of simulation is ran.
+python3 artlife.py will be typed by the user
+If there is a -f with a valid file name attached, a custom template will be made.
+Otherwise a default board will be made with randomized cells filled in.
+After it is determined where the board is coming from, the user will be asked how many generations
+Then, once that number is determined, there will be that many simulations ran.
+A simulation starts with the printing of the game board so the user knows what their initial board is
+The board will then go through a check for neighbor cells to update to the new board
+The board will go through a new conditions check method which determines whether all the previous cells are still alive or not
+Then, the board will be printed out again.
+The board will continue to go through this cycle over and over again until all desired simulations have been gone through
+The objective of all of this is to simulate the fitness of a population of hypothetical cells, which need certain conditions to live on
+There are some issues with it, such as the ability to horizontally print within Python being very difficult.
+To mitigate this problem somewhat, a counter is placed next to each cell when printed out so that it is easier to track the population within a non grid style.
+
+
+

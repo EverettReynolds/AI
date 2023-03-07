@@ -1,0 +1,10 @@
+a- It is implemented using an array of characters
+
+b- This is to protect the class from tampering from the outside world but allows for changes and inheritance from derived or child classes
+
+c- If the grid size is zero and if the r is equal to 9  
+
+d- Recursion is used to check a number within a row, column, and panel to see if the number is not present within the row. Once a boolean answer is returned, the recursion stops. It would be slower for larger puzzles, but is most likely a lot faster than checking every single square 
+
+e- A recurrent RN sends and recieves messages between nodes which correspond to accurate messages of what numbers are present and which ones are not. The network was trained on 216,000 sudoku puzzles.
+

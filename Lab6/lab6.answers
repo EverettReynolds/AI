@@ -1,0 +1,44 @@
+I
+Prolog is short for Logicial Programming
+
+It is sunny.
+Peter's Father is John.
+Mary's Father is John.
+
+II
+Yes
+No
+Yes
+Yes
+
+
+III
+
+
+(1 ms) yes
+| ?- is_in_room(Class,wsc100).
+
+Class = csc480 ?
+
+yes
+| ?- is_in_class(toby,Class).
+
+Class = csc380 ?
+
+yes
+| ?- is_hot(Person).
+
+Person = toby ?
+
+yes
+
+
+is_hot needs to use variables as it has a condition which goes with determining whether it is hot or not in a room.
+
+Our answers would not be different with the changes made to the new version of is_hot.
+
+IV
+
+
+
+

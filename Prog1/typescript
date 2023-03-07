@@ -1,0 +1,121 @@
+Script started on Wed 09 Feb 2022 11:08:07 PM EST
+]0;reynolds@cobra:~/CSC380/Prog1[?1034h[reynolds@cobra Prog1]$ cat nim.py
+#!/usr/bin/python3
+
+def playGame(piles):
+    
+    print("Here are The Number of Chips in the Piles Initially")
+    print(piles)
+
+    answer = int(input("Do you want you or the bot to go first? Enter 0 for Bot or Enter 1 for You. "))
+    if(answer == 0):
+        while True:
+            print("Bot")
+    elif(answer == 1):
+        while True:
+            print("Player")
+            print(piles)
+            userMove(piles)
+            if winCheck(piles):
+                print("You Win!")
+                break
+    else:
+        print("Invalid Input. Enter Either 0 or 1.")
+        playGame(piles)
+  
+    
+     #while(True):
+
+def userMove(piles):
+    #print(piles)
+    pile = input("Which Pile Would You Like to Take From?\n [A,B,C]? ")
+    if pile == 'A':
+        pile = 0
+    if pile == 'B':
+        pile = 1
+    if pile == 'C':
+        pile = 2
+    #if  piles[pile] == 0:
+        #print(" There are Zero Coins in This Pile. Choose Another.")
+    while True:
+        newVal = int(input("How Many Coins Do You Want to Take From This Pile? "))
+        if newVal > piles[pile]:
+            print("Try Again. Not Enough Coins in Pile. ")
+            userMove(piles)
+        else:
+            piles[pile] = piles[pile] - newVal
+        break
+
+
+
+def compMove():
+    print()
+    #aaaaaah
+
+def winCheck(piles):
+    for i in range(len(piles)):
+        if piles[i] != 0:
+            return False
+    return True
+
+
+def makeAMove(stackNum,taken):
+    try:
+        if stacks[stackNum] - taken < 0:
+            raise ValueError
+        else:
+            stacks[stackNum] = stacks[stackNum] - taken
+    except ValueError as err:
+        print(" There are not enough chips in the stack to make this move.")
+        makeAMove( userMove() )
+#def main()
+
+
+piles = []
+print("Welcome to NIM!")
+piles.extend( list( map( int,input( "Enter a Positive Number of Chips for Piles A B C: " ).split() ) ) )
+playGame(piles)
+
+
+
+ ]0;reynolds@cobra:~/CSC380/Prog1[reynolds@cobra Prog1]$ cat nim.py[5Plear[1Pexitssh reynolds_ez@assemble.cs.mercer.edu[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kpython3 nim.py[9Pclearpython3 nim.py[1@i[1P
+Welcome to NIM!
+Enter a Positive Number of Chips for Piles A B C: 4 4 4
+Here are The Number of Chips in the Piles Initially
+[4, 4, 4]
+Do you want you or the bot to go first? Enter 0 for Bot or Enter 1 for You. 1
+Player
+[4, 4, 4]
+Which Pile Would You Like to Take From?
+ [A,B,C]? A
+How Many Coins Do You Want to Take From This Pile? 3
+Player
+[1, 4, 4]
+Which Pile Would You Like to Take From?
+ [A,B,C]? B
+How Many Coins Do You Want to Take From This Pile? 3
+Player
+[1, 1, 4]
+Which Pile Would You Like to Take From?
+ [A,B,C]? C
+How Many Coins Do You Want to Take From This Pile? 3
+Player
+[1, 1, 1]
+Which Pile Would You Like to Take From?
+ [A,B,C]? A
+How Many Coins Do You Want to Take From This Pile? 1
+Player
+[0, 1, 1]
+Which Pile Would You Like to Take From?
+ [A,B,C]? V B
+How Many Coins Do You Want to Take From This Pile? 1
+Player
+[0, 0, 1]
+Which Pile Would You Like to Take From?
+ [A,B,C]? C
+How Many Coins Do You Want to Take From This Pile? 1
+You Win!
+]0;reynolds@cobra:~/CSC380/Prog1[reynolds@cobra Prog1]$ sc[K[Kexit
+exit
+
+Script done on Wed 09 Feb 2022 11:09:18 PM EST

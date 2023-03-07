@@ -1,0 +1,55 @@
+Script started on Mon 11 Apr 2022 08:36:27 PM EDT
+]0;reynolds@cobra:~/CSC380/Prog3[?1034h[reynolds@cobra Prog3]$ python3 eliza.py
+I'm Eliza, Your Favorite Chatbot Psychologist.
+ What's Your Name?
+- Everett
+Hello Everett. It's a Fantastic Day Today, and I hope yours is going as great as you are as a person :)
+The Doctor is Now In Session. 
+What's on your mind?
+- I am tired
+None
+- I cannot get this to work and   
+None
+- I am a perfectionist 
+None
+- I love my mom
+None
+- I am done. Goodbye
+None
+- Goodb     Bye
+It Was Nice Chatting! I Hope Your Day is Splendid :)
+]0;reynolds@cobra:~/CSC380/Prog3[reynolds@cobra Prog3]$ script
+Script started, file is typescript
+]0;reynolds@cobra:~/CSC380/Prog3[?1034h[reynolds@cobra Prog3]$ exit
+exit
+Script done, file is typescript
+]0;reynolds@cobra:~/CSC380/Prog3[reynolds@cobra Prog3]$ script
+Script started, file is typescript
+]0;reynolds@cobra:~/CSC380/Prog3[?1034h[reynolds@cobra Prog3]$ python3 eliza.py
+I'm Eliza, Your Favorite Chatbot Psychologist.
+ What's Your Name?
+- Everett
+Hello Everett. It's a Fantastic Day Today, and I hope yours is going as great as you are as a person :)
+The Doctor is Now In Session. 
+What's on your mind?
+- I am tired
+None
+- I cannot get this to work
+None
+- I have tried my best and even taken two extra days
+None
+- I love my mom and cannot wait to see her on Thursday
+None
+- Thank you for the day off Thursday
+None
+- Goodbye
+It Was Nice Chatting! I Hope Your Day is Splendid :)
+]0;reynolds@cobra:~/CSC380/Prog3[reynolds@cobra Prog3]$ exit
+exit
+Script done, file is typescript
+]0;reynolds@cobra:~/CSC380/Prog3[reynolds@cobra Prog3]$ ls
+dialogue.txt  [0m[38;5;34mEliza[0m  Eliza.h  eliza.py  README  typescript
+]0;reynolds@cobra:~/CSC380/Prog3[reynolds@cobra Prog3]$ /scratch/csc380/last_fm/Prog3[1P/Prog3[1P/Prog3[1P/Prog3[1P/Prog3[1P/Prog3[1P/Prog3[1P/Prog3r/Prog3e/Prog3y/Prog3n/Prog3o/Prog3l/Prog3d/Prog3s/Prog3e/scratch/csc380/reynolds/Prog3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl/scratch/csc380/reynolds/Prog3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cz/scratch/csc380/reynolds/Prog3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/scratch/csc380/reynolds/Prog3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci/scratch/csc380/reynolds/Prog3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cz/scratch/csc380/reynolds/Prog3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca/scratch/csc380/reynolds/Prog3./scratch/csc380/reynolds/Prog3p/scratch/csc380/reynolds/Prog3y/scratch/csc380/reynolds/Prog3 /scratch/csc380/reynolds/Prog3
+bash: eliza.py: command not found...
+]0;reynolds@cobra:~/CSC380/Prog3[reynolds@cobra Prog3]$ eliza.py /scratch/csc380/reynolds/Prog3[1@c[1@p[1@ 
+]0;reynolds@cobra:~/CSC380/Prog3[reynolds@cobra Prog3]$ cp eliza.py /scratch/csc380/reynolds/Prog3[C[C[1P /scratch/csc380/reynolds/Prog3[1P /scratch/csc380/reynolds/Prog3[1P /scratch/csc380/reynolds/Prog3[1P /scratch/csc380/reynolds/Prog3[1P /scratch/csc380/reynolds/Prog3[1P /scratch/csc380/reynolds/Prog3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /scratch/csc380/reynolds/Prog3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /scratch/csc380/reynolds/Prog3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[

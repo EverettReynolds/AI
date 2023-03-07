@@ -1,0 +1,39 @@
+Script started on Wed 26 Jan 2022 11:43:32 PM EST
+]0;reynolds@cobra:~/CSC380/Lab4[?1034h[reynolds@cobra Lab4]$ clear./TicTacToels[Kcd Lab4ls[Kcd CSC380ls[Kexitssh reynolds_ez@assemble.cs.mercer.edu[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pvim tictactoe.cppls[Kvim tictactoe.cppssh reynolds_ez@assemble.cs.mercer.edu[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[2Plscd CSC380ls[Kcd Lab4ls[K./TicTacToe[6Pclear[Kc++ ticc[Ktactoe.cpp
+]0;reynolds@cobra:~/CSC380/Lab4[reynolds@cobra Lab4]$ c++ tictactoe.cpplear[K./TicTacToels[K./TicTacToe[6Pclear++ tictactoe.cpp[K./a.out
+    |    |  
+----|----|----
+    |    |  
+----|----|----
+    |    |  
+Where Is Your Next Move?
+1
+Where Is Your Next Move?
+2
+Where Is Your Next Move?
+3
+Where Is Your Next Move?
+4
+Where Is Your Next Move?
+5
+Where Is Your Next Move?
+6
+Where Is Your Next Move?
+7
+Where Is Your Next Move?
+8
+Where Is Your Next Move?
+9
+Where Is Your Next Move?
+14
+Where Is Your Next Move?
+68
+Where Is Your Next Move?
+100
+You Made An Invalid Move, Try Again.
+Where Is Your Next Move?
+^C
+]0;reynolds@cobra:~/CSC380/Lab4[reynolds@cobra Lab4]$ exit
+exit
+
+Script done on Wed 26 Jan 2022 11:45:00 PM EST

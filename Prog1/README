@@ -1,0 +1,18 @@
+The Nim algorithm is essentially designed to play the Nim game which is considered one of the oldest games known to man.
+The algorithm starts by initiating a sequence which asks for the user to input how many coins they would like in the three piles availiable to them.
+Next, the algorithm takes the user to the playGame method which is used to setup the field of play for both the player and AI counterpart.
+The player is then asked who should go first and the algotithm takes two diverging paths depending on who goes first. 
+If the player goes first, the userMove is initiated.
+When this happens, a player is asked from what pile they want to take from, and they are allowed to take up to 3 coins from the piles
+A pile is selected through the user of A, B , or C, and the letter input is converted to a position within the array used to store the coin values.
+The player is can only take up to 3 coins, as that is part of the rules of the game.
+Next is the AI's turn.
+The AI goes through the file of unsafe moves through a python search of the file.
+The AI takes three coins by default.
+The AI then looks through the array and compares the array to its memory file of unsafe moves
+If an unsafe move is found, the AI will decrease the amount of coins
+This will occur until a pile number which is not found within the unsafe file is found, and the AI will take that move.
+If no such move is found, an AI will take 3 coins and record the state of the unsafe/loss move, the similar variations of that move, and the 6 previous moves which could have led up to that point for all 3 end states.
+The game will repeat until a win check is completed, and whoever has a false return first is the winner of NIM.
+I believe my algorithm could have been more efficent through the use of less if statements and checks, using more heuristics to find shortcuts for all ifs.
+The AI portion of the algorithm was having a lot of trouble, so I will turn it in and regain extra points as I can. 

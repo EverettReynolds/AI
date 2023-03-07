@@ -1,0 +1,23 @@
+Algorithm Analysis
+
+My algorithm for the Eliza Chatbot will work as such
+I will use the optional main def to be the main orchastrator of the entire program
+Within this I will have input for the user's name so that Eliza has access to it
+I will then give a greeting to the user and say that the session has begun
+Using a while True loop,
+I will get the user's response to my therapy questions
+There will be a search through the user sentence for any of the phrases which would constitute an exit
+If the user does not have any of those phrases, we will go to the parse method
+This will parse through the sentence using a for loop and look for a match with the sentence given and the sentence database that I have made
+If one is found, the sentence will have its output recorded for Eliza 
+Then, it will have its pronouns swapped to fit the description of Eliza saying it
+This sentence will then be returned to the main method and outputted to screen where the user is reprompted to continue their conversion with Eliza
+If a exit word is found, Eliza will say a goodbye and exit the entire program
+
+My dialog class is built into the eliza class as it is simply a python list
+This Python List is filled with entries for every possible outcome of a sentence a user could say
+A default option is also set.
+Each option has multiple responses which can be chosen.
+These can be referenced used indices within the list, as it is two dimensional in nature (I believe)
+My algorithm does not have many efficency issues, but could be made more efficent through the use of quick sorting algorithms and actual searches taking place
+
