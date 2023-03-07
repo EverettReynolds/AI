@@ -1,0 +1,47 @@
+1-
+	Query 1
+		
+	N = 4
+
+	yes
+	
+	Query 2
+	
+	N = 10
+
+	yes
+	
+	Query 3
+	
+	N = [4,3,2,1]
+
+	yes
+
+2-
+state(w,w,w,w)
+state(e,w,e,w)
+state(w,w,e,w)
+state(e,e,e,w)
+state(w,e,w,w)
+state(e,e,w,e)
+state(w,e,w,e)
+state(e,e,e,e)
+
+State 1 - The farmer,wolf,goat, and cabbage are all on the west bank.
+State 2- The farmer takes the goat to the east bank, leaving behind the cabbage and wolf
+State 3 - The farmer goes back to the west bank, leaving the goat on the east bank.
+State 4- the wolf and the farmer travel to the east bank and join the goat on the east bank.
+State 5- The farmer leaves the wolf on the east bank, and travels back to the west bank with the goat.
+State 6- The farmer leaves the goat on the west bank, and travels to the east bank with the cabbage.
+State 7- The farmer leaves the cabbage on the east bank and travels back to the west bank.
+State 8- The farmer finally travels to the east bank with the goat and has sucessfully transported all belongings
+
+
+3-
+	Backtracking is a method of problem solving which recursively trys to build a solution piece by piece. The farmer is constantly backtracking within the cabbage problem, which prevents resources from being destroyed through error.
+
+4-
+	Jealous Husbands is a problem which can be stated as there being three couples wanting to cross a river. However, no woman can be with another man around unless her husband is present. There can never be an outnumbering of men to women within the problem. You also cannot have a women alone on a boat while other men are on the shore.
+	
+
+
